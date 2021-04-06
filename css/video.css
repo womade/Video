@@ -1,5 +1,5 @@
 .search{width:100%;padding:20px 0}
-.s-input{border-right:0;border-radius:5px;}
+.s-input{border-right:0;border-radius:4px 0 0 4px;}
 .am-selected-btn{border-color:#ff9900;border-radius:0;padding:0.53em 1em;outline:none!important;}
 .am-btn-default:focus, .am-btn-default:hover, .am-dropdown.am-active .am-btn-default.am-dropdown-toggle{border-color:#ff9900;background-color:#eee;}
 .start{float:right;margin-top:-38px}
