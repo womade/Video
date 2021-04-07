@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+input::-webkit-input-placeholder {
+	color: #fff
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	-webkit-tap-highlight-color: transparent
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden
+}
+
+.bgo {
+	background: url(https://v.ssss.fun/search/bg_0.jpg);
+	background-position: center;
+	background-size: cover;
+	filter: brightness(.9);
+	width: 100%;
+	height: 100%;
+	z-index: 1
+}
+
+html {
+	font-family: noto sans sc sliced,PingFangSC-Light,Microsoft YaHei UI,Microsoft YaHei,helvetica,sans-serif;
+	font-weight: 300;
+	color: #fff
+}
+
+ul,li {
+	display: block;
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+	color: #000
+}
+
+.logo {
+	position: absolute;
+	z-index: 99;
+	top: 93%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 200px;
+	opacity: .9
+}
+
+@media(max-width:640px) {
+
+	.bgo {
+		background: url(https://v.ssss.fun/search/bg_1.jpg);
+		background-position: center;
+		background-size: cover
+	}
+
+	.logo {
+		width: 35%
+	}
+
+	.ko {
+		height: 158px;
+		overflow-y: scroll
+	}
+}
+
+.ssln:hover {
+	background: #f2f2f2
+}

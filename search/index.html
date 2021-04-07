@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="full-screen" content="yes">
+<meta name="browsermode" content="application">
+<meta name="x5-fullscreen" content="true">
+<meta name="x5-page-mode" content="app">
+
+<title>影片搜索</title>
+<link rel="shortcut icon" href="https://v.ssss.fun/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://v.ssss.fun/favicon.ico" type="image/x-icon">
+<link href="style.css" rel="stylesheet">
+<link href="sousuo.css" rel="stylesheet">
+<link rel="stylesheet" href="iconfont.css">
+<script src="https://cdn.ssss.fun/jquery/3.5.1/jquery.min.js"></script>
+<script src="ssss.js"></script>
+</head>
+
+<body bgcolor="#000000"</body>
+
+<body>
+
+
+
+<div id="search" class="s-search">
+<center><img src="ssssfun.png" width="300px" /></center>
+<br>
+<div id="search-list">
+
+<div class="search-group group-a s-current">
+<span class="type-text">常用</span>
+<ul class="search-type">
+<li><input checked="" hidden="" type="radio" name="type" id="type-youku" value="https://so.youku.com/search_video/q_" data-placeholder="优酷视频搜素"><label for="type-youku"><span>优酷</span></label></li>
+<li><input hidden="" type="radio" name="type" id="type-iqiyi" value="https://so.iqiyi.com/so/q_" data-placeholder="爱奇艺视频搜素"><label for="type-iqiyi"><span>爱奇艺</span></label></li>
+<li><input hidden="" type="radio" name="type" id="type-tencent" value="https://v.qq.com/x/search/?q=" data-placeholder="腾讯视频搜素"><label for="type-tencent"><span>腾讯</span></label></li>
+<li><input hidden="" type="radio" name="type" id="type-mgtv" value="https://so.mgtv.com/so?k=" data-placeholder="芒果TV搜素"><label for="type-mgtv"><span>芒果</span></label></li>
+<li><input hidden="" type="radio" name="type" id="type-bilibili" value="https://search.bilibili.com/all?keyword=" data-placeholder="Bilibili搜素"><label for="type-bilibili"><span>Bilibili</span></label></li>
+
+</ul>
+</div>
+
+</div>
+<form action="https://so.youku.com/search_video/q_" method="get" target="_blank" id="super-search-fm">
+<input type="text" id="search-text" placeholder="视频搜索" style="outline:0" autocomplete="off">
+<button type="submit"><i class="iconfont icon-ssss"></i></button>
+<ul id="ul" class="ko"></ul>
+</form>
+
+<script type="text/javascript" src="https://js.users.51.la/20838387.js"></script>
+
+<script>
+			document.oncontextmenu = function (event){
+			if(window.event){
+			event = window.event;
+			}try{
+			var the = event.srcElement;
+			if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+			return false;
+			}
+			return true;
+			}catch (e){
+			return false;
+			}
+			}
+		</script>
+
+<div class="set-check hidden-xs">
+<input type="checkbox" id="set-search-blank" class="bubble-3" autocomplete="off">
+</div>
+</div>
+<script type="text/javascript" src="sousuo.js"></script>
+<div class="bgo"></div>
+
+</body></html>

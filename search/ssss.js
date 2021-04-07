@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#menu").click(function(event){$(this).toggleClass('on');$(".list").toggleClass('closed');});});{console.log(`${'\n'} %c  中國遠徵  %c https://www.ssss.fun ${'\n'}`,'color: #fadfa3; background: #030307; padding:5px 0;','background: #fadfa3; padding:5px 0;')};
