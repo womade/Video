@@ -4,3 +4,6 @@
 .am-btn-default:focus, .am-btn-default:hover, .am-dropdown.am-active .am-btn-default.am-dropdown-toggle{border-color:#ff9900;background-color:#eee;}
 .start{float:right;margin-top:-38px}
 html body #player{margin-bottom:.3em;height:548px!important;width:100%;border:2px solid #ff990099;border-radius:10px}
+@media only screen and (max-width:640px) {
+html body #player{margin-bottom:.3em;height:248px!important;width:100%;border:2px solid #ff990099;border-radius:10px}
+}
